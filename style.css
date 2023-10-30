@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #EBFF6D;
+}
+
+.section-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.text{
+position: absolute;
+}
+.top-left{
+    top: 2rem;
+    left: 2rem;
+}
+.top-right{
+    top: 2rem;
+    right: 2rem;
+}.btm-left{
+    bottom: 2rem;
+    left: 2rem;
+}
+.btm-right{
+    bottom: 2rem;
+    right: 2rem;
+}
+
+
+.outter{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 2.5px solid #EBFF6D;
+}
+.box-top-left{
+    top: 4rem;
+    left: 2rem;
+    border-right: none;
+    border-bottom: none;
+}
+.box-top-right{
+    top: 4rem;
+    right: 2rem;
+    border-left: none;
+    border-bottom: none;
+}
+.box-btm-left{
+    bottom: 4rem;
+    left: 2rem;
+    border-top: none;
+    border-right: none;
+}
+.box-btm-right{
+    bottom: 4rem;
+    right: 2rem;
+    border-top: none;
+    border-left: none;
+}
+
+
+.title{
+    font-size: 3.5rem;
+}
+
+.hero-title{
+    position: relative;
+    padding: 0.8rem;
+}
+.inner{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+   border: 2.8px solid #EBFF6D;
+}
+.box1-top-left{
+    top: 0;
+    left: 0;
+    border-right: none;
+    border-bottom: none;
+}
+.box1-top-right{
+top: 0;
+right: 0;
+border-left: none;
+border-bottom: none;
+}
+.box1-btm-left{
+    bottom: 0;
+    left: 0;
+    border-top: none;
+    border-right: none;
+}
+.box1-btm-right{
+    bottom: 0;
+    right: 0;
+    border-top: none;
+    border-left: none;
+}
+
+
+
+.last-nature{
+    background-color:#101208;
+    padding: 100px 0px;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1100px;
+    margin:0px auto;
+   
+   
+
+}
+.img-container {
+    position: relative;
+}
+
+.img-text{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+
+.fotter{
+    display: flex;
+justify-content: space-between;
+
+}
